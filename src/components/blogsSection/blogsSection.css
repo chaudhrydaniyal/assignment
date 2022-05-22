@@ -1,0 +1,55 @@
+.blogsSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 150px 30px 150px
+}
+
+
+.blogsCard {
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+}
+
+
+.cardImg {
+    width: 300px;
+    height: 200px;
+}
+
+.blogsSubtitle {
+    font-size: 16px;
+}
+
+
+button {
+    background-color: #1E1B1B;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+.loadMoreBtn {
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.loadMoreBtn:hover {
+    cursor: pointer;
+}
+
+.views {
+    color: #939191;
+    display: flex;
+    align-items: center;
+}

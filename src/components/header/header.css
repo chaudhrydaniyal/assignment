@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    height: 500px;
+}
+
+.headerLeft {
+    background-image: url("../../assets/headerImg.png");
+    background-size: auto 500px;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+
+
+.headerRight {
+    background-color: #1E1B1B;
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+
+.headerText {
+    margin-left: 60px;
+    width: 600px;
+}
